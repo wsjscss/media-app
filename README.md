@@ -6,9 +6,9 @@ This is a straightforward CRUD media application that includes its own server bu
 
 **Build tool**: `Vite`
 
-**Frontend**: `React`, `MobX`, `CSS Modules`, `TypeScrip`, `Axios`
+**Frontend**: `React`, `MobX`, `CSS Modules`, `TypeScript`, `Axios`
 
-**Backend**: `Nodejs`, `Express`
+**Backend**: `Node.js`, `Express`
 
 ## How To Start
 
@@ -29,9 +29,9 @@ npm run server
 npm run dev
 ```
 
-Once finished go to <http://localhost:5173/>
+Once finished, go to <http://localhost:5173/>.
 
-## Building the project
+## Building the Project
 
 To build the project, use the following commands:
 

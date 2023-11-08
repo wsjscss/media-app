@@ -1,0 +1,274 @@
+{
+    "media": [
+        {
+            "id": 1,
+            "title": "The Matrixx",
+            "type": "movie",
+            "genre": "Action",
+            "releaseYear": "2004",
+            "rating": "6.5",
+            "imageSrc": "/assets/movie-1.jpeg"
+        },
+        {
+            "id": 2,
+            "title": "Inception",
+            "type": "movie",
+            "genre": "Sci-Fi",
+            "releaseYear": 2010,
+            "rating": 9,
+            "imageSrc": "/assets/movie-1.jpeg"
+        },
+        {
+            "id": 3,
+            "title": "The Shawshank Redemption",
+            "type": "movie",
+            "genre": "Drama",
+            "releaseYear": 1994,
+            "rating": 9,
+            "imageSrc": "/assets/movie-1.jpeg"
+        },
+        {
+            "id": 4,
+            "title": "The Dark Knight",
+            "type": "movie",
+            "genre": "Action",
+            "releaseYear": 2008,
+            "rating": 9,
+            "imageSrc": "/assets/movie-1.jpeg"
+        },
+        {
+            "id": 5,
+            "title": "Interstellar",
+            "type": "movie",
+            "genre": "Sci-Fi",
+            "releaseYear": 2014,
+            "rating": 7,
+            "imageSrc": "/assets/movie-1.jpeg"
+        },
+        {
+            "id": 6,
+            "title": "Pulp Fiction",
+            "type": "movie",
+            "genre": "Crime",
+            "releaseYear": 1994,
+            "rating": 6,
+            "imageSrc": "/assets/movie-1.jpeg"
+        },
+        {
+            "id": 7,
+            "title": "The Lord of the Rings: The Return of the King",
+            "type": "movie",
+            "genre": "Fantasy",
+            "releaseYear": 2003,
+            "rating": 5,
+            "imageSrc": "/assets/movie-1.jpeg"
+        },
+        {
+            "id": 8,
+            "title": "Forrest Gump",
+            "type": "movie",
+            "genre": "Drama",
+            "releaseYear": 1994,
+            "rating": 8,
+            "imageSrc": "/assets/movie-1.jpeg"
+        },
+        {
+            "id": 9,
+            "title": "The Godfather",
+            "type": "movie",
+            "genre": "Crime",
+            "releaseYear": 1972,
+            "rating": 9,
+            "imageSrc": "/assets/movie-1.jpeg"
+        },
+        {
+            "id": 10,
+            "title": "The Avengers",
+            "type": "movie",
+            "genre": "Action",
+            "releaseYear": 2012,
+            "rating": 7,
+            "imageSrc": "/assets/movie-1.jpeg"
+        },
+        {
+            "id": 11,
+            "title": "The Legend of Zelda: Breath of the Wild",
+            "type": "game",
+            "genre": "Adventure",
+            "releaseYear": 2017,
+            "rating": 9.5,
+            "imageSrc": "/assets/game-1.jpeg"
+        },
+        {
+            "id": 12,
+            "title": "The Witcher 3: Wild Hunt",
+            "type": "game",
+            "genre": "Role-Playing Game (RPG)",
+            "releaseYear": 2015,
+            "rating": 9.8,
+            "imageSrc": "/assets/game-1.jpeg"
+        },
+        {
+            "id": 13,
+            "title": "Uncharted 4: A Thief's End",
+            "type": "game",
+            "genre": "Action",
+            "releaseYear": 2016,
+            "rating": 9.7,
+            "imageSrc": "/assets/game-1.jpeg"
+        },
+        {
+            "id": 14,
+            "title": "Red Dead Redemption 2",
+            "type": "game",
+            "genre": "Action-Adventure",
+            "releaseYear": 2018,
+            "rating": 9.8,
+            "imageSrc": "/assets/game-1.jpeg"
+        },
+        {
+            "id": 15,
+            "title": "Super Mario Odyssey",
+            "type": "game",
+            "genre": "Platformer",
+            "releaseYear": 2017,
+            "rating": 9.5,
+            "imageSrc": "/assets/game-1.jpeg"
+        },
+        {
+            "id": 16,
+            "title": "Dark Souls III",
+            "type": "game",
+            "genre": "Action RPG",
+            "releaseYear": 2016,
+            "rating": 9,
+            "imageSrc": "/assets/game-1.jpeg"
+        },
+        {
+            "id": 17,
+            "title": "Overwatch",
+            "type": "game",
+            "genre": "First-Person Shooter (FPS)",
+            "releaseYear": 2016,
+            "rating": 8.5,
+            "imageSrc": "/assets/game-1.jpeg"
+        },
+        {
+            "id": 18,
+            "title": "Minecraft",
+            "type": "game",
+            "genre": "Sandbox",
+            "releaseYear": 2011,
+            "rating": 9,
+            "imageSrc": "/assets/game-1.jpeg"
+        },
+        {
+            "id": 19,
+            "title": "Portal 2",
+            "type": "game",
+            "genre": "Puzzle",
+            "releaseYear": 2011,
+            "rating": "9",
+            "imageSrc": "/assets/game-1.jpeg"
+        },
+        {
+            "id": 20,
+            "title": "FIFA 22",
+            "type": "game",
+            "genre": "Sports",
+            "releaseYear": 2021,
+            "rating": 8.9,
+            "imageSrc": "/assets/game-1.jpeg"
+        },
+        {
+            "id": 21,
+            "title": "Stranger",
+            "type": "tv-show",
+            "genre": "Sci-Fi",
+            "releaseYear": 2016,
+            "rating": 8.7,
+            "imageSrc": "/assets/tv-show.jpeg"
+        },
+        {
+            "id": 22,
+            "title": "Game of Thrones",
+            "type": "tv-show",
+            "genre": "Fantasy",
+            "releaseYear": 2011,
+            "rating": 9.3,
+            "imageSrc": "/assets/tv-show.jpeg"
+        },
+        {
+            "id": 23,
+            "title": "Breaking Bad",
+            "type": "tv-show",
+            "genre": "Drama",
+            "releaseYear": 2008,
+            "rating": 9.5,
+            "imageSrc": "/assets/tv-show.jpeg"
+        },
+        {
+            "id": 24,
+            "title": "The Crown",
+            "type": "tv-show",
+            "genre": "Historical Drama",
+            "releaseYear": 2016,
+            "rating": 8.7,
+            "imageSrc": "/assets/tv-show.jpeg"
+        },
+        {
+            "id": 25,
+            "title": "The Office",
+            "type": "tv-show",
+            "genre": "Comedy",
+            "releaseYear": 2005,
+            "rating": 8.9,
+            "imageSrc": "/assets/tv-show.jpeg"
+        },
+        {
+            "id": 26,
+            "title": "Stranger Things",
+            "type": "tv-show",
+            "genre": "Sci-Fi",
+            "releaseYear": 2016,
+            "rating": 8.7,
+            "imageSrc": "/assets/tv-show.jpeg"
+        },
+        {
+            "id": 27,
+            "title": "Friends",
+            "type": "tv-show",
+            "genre": "Sitcom",
+            "releaseYear": 1994,
+            "rating": 8.5,
+            "imageSrc": "/assets/tv-show.jpeg"
+        },
+        {
+            "id": 28,
+            "title": "The Mandalorian",
+            "type": "tv-show",
+            "genre": "Science Fiction",
+            "releaseYear": 2019,
+            "rating": 8.8,
+            "imageSrc": "/assets/tv-show.jpeg"
+        },
+        {
+            "id": 29,
+            "title": "Sherlock",
+            "type": "tv-show",
+            "genre": "Crime Drama",
+            "releaseYear": 2010,
+            "rating": 9.1,
+            "imageSrc": "/assets/tv-show.jpeg"
+        },
+        {
+            "id": 30,
+            "title": "The Witcher",
+            "type": "tv-show",
+            "genre": "Fantasy",
+            "releaseYear": 2019,
+            "rating": 8.3,
+            "imageSrc": "/assets/tv-show.jpeg"
+        }
+    ]
+}

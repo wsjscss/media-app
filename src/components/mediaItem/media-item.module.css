@@ -1,0 +1,61 @@
+.mediaItemWrapper:hover .mediaItem {
+  transform: translateY(-8px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.mediaItem {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  transition: transform 0.25s ease, background 0.25s ease;
+  cursor: pointer;
+}
+
+.mediaImg {
+  display: block;
+  width: 100%;
+  aspect-ratio: 301/451;
+}
+
+.mediaTitle {
+  margin-bottom: 4px;
+}
+
+.mediaStar {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.mediaRating {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  background: rgba(255, 255, 255, 0.8);
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.mediaItemContent {
+  padding: 0 16px 16px;
+}
+
+.mediaSmallText {
+  font-size: 14px;
+  margin: 0 4px;
+  opacity: 0.6;
+}
+
+.mediaItemCTA {
+  margin-top: 8px;
+  display: flex;
+  gap: 16px;
+}

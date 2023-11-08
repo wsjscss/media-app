@@ -1,0 +1,12 @@
+.mediaForm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  background-color: var(--darkBg);
+  padding: 16px;
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.6);
+
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}

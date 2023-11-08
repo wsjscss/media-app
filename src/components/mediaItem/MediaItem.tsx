@@ -1,7 +1,7 @@
 import { observer } from "mobx-react-lite";
-import type { MediaType } from "../../store/MediaStore";
 import MediaStore from "../../store/MediaStore";
 import styles from "./media-item.module.css";
+import { MediaType } from "../../typings/MediaStoreTypes";
 
 export const MediaItem = observer(
   ({ id, rating, releaseYear, genre, title, imageSrc }: MediaType) => {

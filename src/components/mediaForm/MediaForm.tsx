@@ -1,19 +1,15 @@
 import { observer } from "mobx-react-lite";
 import MediaStore from "../../store/MediaStore";
+import { FormStore } from "../../store/MediaFormStore";
 import styles from "./media-form.module.css";
 import { ChangeEvent } from "react";
+import { FormDataTypeKeys } from "../../typings/MediaStoreTypes";
 
 export const MediaForm = observer(() => {
-  const {
-    isEditable,
-    setIsEditable,
-    mediaTypeList,
-    formData,
-    setFormData,
-    resetForm,
-    addMedia,
-    updateMedia,
-  } = MediaStore;
+  const { isEditable, setIsEditable, mediaTypeList, addMedia, updateMedia } =
+    MediaStore;
+
+  const { formData, setFormDataField, resetForm } = FormStore;
 
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault();
@@ -25,7 +21,7 @@ export const MediaForm = observer(() => {
     event: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
   ) => {
     const { name, value } = event.target;
-    setFormData(name, value);
+    setFormDataField(name as FormDataTypeKeys, value);
   };
 
   return (

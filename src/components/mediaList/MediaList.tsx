@@ -5,7 +5,7 @@ import { MediaItem } from "../mediaItem/MediaItem";
 import styles from "./media-list.module.css";
 
 export const MediaList = observer(() => {
-  const { getAllMedia, filteredMedia } = MediaStore;
+  const { getAllMedia, filteredMediaData, isLoading } = MediaStore;
 
   useEffect(() => {
     getAllMedia();
@@ -13,8 +13,13 @@ export const MediaList = observer(() => {
 
   return (
     <>
+      <div
+        className={`${styles.mediaOverlay} ${
+          isLoading && styles.mediaOverlayActive
+        }`}
+      />
       <div className={styles.mediaList}>
-        {filteredMedia.map(
+        {filteredMediaData.map(
           ({ id, rating, releaseYear, genre, title, imageSrc, type }) => (
             <MediaItem
               id={id}

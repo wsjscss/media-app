@@ -2,12 +2,12 @@
     "media": [
         {
             "id": 1,
-            "title": "The Matrixx",
+            "title": "Matrix",
             "type": "movie",
             "genre": "Action",
-            "releaseYear": "2004",
-            "rating": "6.5",
-            "imageSrc": "/assets/movie-1.jpeg"
+            "releaseYear": 2003,
+            "rating": 9,
+            "imageSrc": "/assets/movie.jpeg"
         },
         {
             "id": 2,
@@ -16,7 +16,7 @@
             "genre": "Sci-Fi",
             "releaseYear": 2010,
             "rating": 9,
-            "imageSrc": "/assets/movie-1.jpeg"
+            "imageSrc": "/assets/movie.jpeg"
         },
         {
             "id": 3,
@@ -25,7 +25,7 @@
             "genre": "Drama",
             "releaseYear": 1994,
             "rating": 9,
-            "imageSrc": "/assets/movie-1.jpeg"
+            "imageSrc": "/assets/movie.jpeg"
         },
         {
             "id": 4,
@@ -34,7 +34,7 @@
             "genre": "Action",
             "releaseYear": 2008,
             "rating": 9,
-            "imageSrc": "/assets/movie-1.jpeg"
+            "imageSrc": "/assets/movie.jpeg"
         },
         {
             "id": 5,
@@ -43,7 +43,7 @@
             "genre": "Sci-Fi",
             "releaseYear": 2014,
             "rating": 7,
-            "imageSrc": "/assets/movie-1.jpeg"
+            "imageSrc": "/assets/movie.jpeg"
         },
         {
             "id": 6,
@@ -52,7 +52,7 @@
             "genre": "Crime",
             "releaseYear": 1994,
             "rating": 6,
-            "imageSrc": "/assets/movie-1.jpeg"
+            "imageSrc": "/assets/movie.jpeg"
         },
         {
             "id": 7,
@@ -61,7 +61,7 @@
             "genre": "Fantasy",
             "releaseYear": 2003,
             "rating": 5,
-            "imageSrc": "/assets/movie-1.jpeg"
+            "imageSrc": "/assets/movie.jpeg"
         },
         {
             "id": 8,
@@ -70,7 +70,7 @@
             "genre": "Drama",
             "releaseYear": 1994,
             "rating": 8,
-            "imageSrc": "/assets/movie-1.jpeg"
+            "imageSrc": "/assets/movie.jpeg"
         },
         {
             "id": 9,
@@ -79,7 +79,7 @@
             "genre": "Crime",
             "releaseYear": 1972,
             "rating": 9,
-            "imageSrc": "/assets/movie-1.jpeg"
+            "imageSrc": "/assets/movie.jpeg"
         },
         {
             "id": 10,
@@ -88,7 +88,7 @@
             "genre": "Action",
             "releaseYear": 2012,
             "rating": 7,
-            "imageSrc": "/assets/movie-1.jpeg"
+            "imageSrc": "/assets/movie.jpeg"
         },
         {
             "id": 11,
@@ -97,7 +97,7 @@
             "genre": "Adventure",
             "releaseYear": 2017,
             "rating": 9.5,
-            "imageSrc": "/assets/game-1.jpeg"
+            "imageSrc": "/assets/game.jpeg"
         },
         {
             "id": 12,
@@ -106,7 +106,7 @@
             "genre": "Role-Playing Game (RPG)",
             "releaseYear": 2015,
             "rating": 9.8,
-            "imageSrc": "/assets/game-1.jpeg"
+            "imageSrc": "/assets/game.jpeg"
         },
         {
             "id": 13,
@@ -115,7 +115,7 @@
             "genre": "Action",
             "releaseYear": 2016,
             "rating": 9.7,
-            "imageSrc": "/assets/game-1.jpeg"
+            "imageSrc": "/assets/game.jpeg"
         },
         {
             "id": 14,
@@ -124,7 +124,7 @@
             "genre": "Action-Adventure",
             "releaseYear": 2018,
             "rating": 9.8,
-            "imageSrc": "/assets/game-1.jpeg"
+            "imageSrc": "/assets/game.jpeg"
         },
         {
             "id": 15,
@@ -133,7 +133,7 @@
             "genre": "Platformer",
             "releaseYear": 2017,
             "rating": 9.5,
-            "imageSrc": "/assets/game-1.jpeg"
+            "imageSrc": "/assets/game.jpeg"
         },
         {
             "id": 16,
@@ -142,7 +142,7 @@
             "genre": "Action RPG",
             "releaseYear": 2016,
             "rating": 9,
-            "imageSrc": "/assets/game-1.jpeg"
+            "imageSrc": "/assets/game.jpeg"
         },
         {
             "id": 17,
@@ -151,7 +151,7 @@
             "genre": "First-Person Shooter (FPS)",
             "releaseYear": 2016,
             "rating": 8.5,
-            "imageSrc": "/assets/game-1.jpeg"
+            "imageSrc": "/assets/game.jpeg"
         },
         {
             "id": 18,
@@ -160,7 +160,7 @@
             "genre": "Sandbox",
             "releaseYear": 2011,
             "rating": 9,
-            "imageSrc": "/assets/game-1.jpeg"
+            "imageSrc": "/assets/game.jpeg"
         },
         {
             "id": 19,
@@ -169,7 +169,7 @@
             "genre": "Puzzle",
             "releaseYear": 2011,
             "rating": "9",
-            "imageSrc": "/assets/game-1.jpeg"
+            "imageSrc": "/assets/game.jpeg"
         },
         {
             "id": 20,
@@ -178,7 +178,7 @@
             "genre": "Sports",
             "releaseYear": 2021,
             "rating": 8.9,
-            "imageSrc": "/assets/game-1.jpeg"
+            "imageSrc": "/assets/game.jpeg"
         },
         {
             "id": 21,

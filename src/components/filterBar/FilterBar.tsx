@@ -2,16 +2,18 @@ import { observer } from "mobx-react-lite";
 import MediaStore from "../../store/MediaStore";
 import styles from "./filter-bar.module.css";
 import { ChangeEvent } from "react";
+import { FilterFormTypeKeys } from "../../typings/MediaStoreTypes";
+import { FilterStore } from "../../store/MediaFilterStore";
 
 export const FilterBar = observer(() => {
-  const { mediaTypeList, filtersForm, setFilterForm, resetFilters } =
-    MediaStore;
+  const { mediaTypeList } = MediaStore;
+  const { form, setFilterForm, resetFilters } = FilterStore;
 
   const handleInputChange = (
     event: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
   ) => {
     const { name, value } = event.target;
-    setFilterForm(name, value);
+    setFilterForm(name as FilterFormTypeKeys, value);
   };
 
   return (
@@ -21,7 +23,7 @@ export const FilterBar = observer(() => {
       <input
         type="text"
         placeholder="Search by title"
-        value={filtersForm.query}
+        value={form.query}
         name="query"
         onInput={(event: ChangeEvent<HTMLInputElement>) =>
           handleInputChange(event)
@@ -30,7 +32,7 @@ export const FilterBar = observer(() => {
 
       <select
         name="type"
-        value={filtersForm.type}
+        value={form.type}
         onInput={(event: ChangeEvent<HTMLSelectElement>) =>
           handleInputChange(event)
         }

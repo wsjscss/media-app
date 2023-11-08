@@ -7,6 +7,7 @@ import { v4 as uuidv4 } from "uuid";
 
 const app = express();
 const jsonDataPath = path.join("./server/db/db.json");
+const DELAY = 1000;
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -34,7 +35,15 @@ app.get("/api/media", async (req, res) => {
 });
 
 app.post("/api/add", async (req, res) => {
-  let newMedia = { id: uuidv4(), imageSrc: "/assets/game-1.jpeg", ...req.body };
+  const mediaMap = {
+    movie: "/assets/movie.jpeg",
+    game: "/assets/game.jpeg",
+    "tv-show": "/assets/tv-show.jpeg",
+  };
+
+  const imageSrc = mediaMap[req.body.type] || mediaMap.movie;
+
+  let newMedia = { id: uuidv4(), imageSrc, ...req.body };
 
   const jsonData = await readJSONFile();
   jsonData.media.unshift(newMedia);
